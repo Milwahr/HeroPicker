@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7460D0FB-2147-400E-833C-7BB407908E1D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HeroPicker</RootNamespace>
+    <AssemblyName>HeroPicker</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.106.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.106.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.106.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.106.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.106.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.106.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutGame.Designer.cs">
+      <DependentUpon>AboutGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutHeroes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutHeroes.Designer.cs">
+      <DependentUpon>AboutHeroes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Sup_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Sup_1.Designer.cs">
+      <DependentUpon>Sup_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Sup_2_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Sup_2_1.Designer.cs">
+      <DependentUpon>Sup_2_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Sup_3_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Sup_3_1.Designer.cs">
+      <DependentUpon>Sup_3_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Sup_3_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Sup_3_2.Designer.cs">
+      <DependentUpon>Sup_3_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Def_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Def_1.Designer.cs">
+      <DependentUpon>Def_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Def_2_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Def_2_1.Designer.cs">
+      <DependentUpon>Def_2_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Def_2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Def_2_2.Designer.cs">
+      <DependentUpon>Def_2_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Def_2_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Def_2_3.Designer.cs">
+      <DependentUpon>Def_2_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rezultat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rezultat.Designer.cs">
+      <DependentUpon>Rezultat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Tank_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Tank_1.Designer.cs">
+      <DependentUpon>Tank_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Tank_2_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Tank_2_1.Designer.cs">
+      <DependentUpon>Tank_2_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Tank_2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Tank_2_2.Designer.cs">
+      <DependentUpon>Tank_2_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DPS_3_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\DPS_3_1.Designer.cs">
+      <DependentUpon>DPS_3_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DPS_3_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\DPS_3_3.Designer.cs">
+      <DependentUpon>DPS_3_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rjesenje.cs" />
+    <Compile Include="Test\DPS_2_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\DPS_2_1.Designer.cs">
+      <DependentUpon>DPS_2_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DPS_2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\DPS_2_2.Designer.cs">
+      <DependentUpon>DPS_2_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\DPS_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\DPS_1.Designer.cs">
+      <DependentUpon>DPS_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InfoScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InfoScreen.Designer.cs">
+      <DependentUpon>InfoScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maps.Designer.cs">
+      <DependentUpon>Maps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatMenu.Designer.cs">
+      <DependentUpon>StatMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutGame.resx">
+      <DependentUpon>AboutGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutHeroes.resx">
+      <DependentUpon>AboutHeroes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Sup_1.resx">
+      <DependentUpon>Sup_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Sup_2_1.resx">
+      <DependentUpon>Sup_2_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Sup_3_1.resx">
+      <DependentUpon>Sup_3_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Sup_3_2.resx">
+      <DependentUpon>Sup_3_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Def_1.resx">
+      <DependentUpon>Def_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Def_2_1.resx">
+      <DependentUpon>Def_2_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Def_2_2.resx">
+      <DependentUpon>Def_2_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Def_2_3.resx">
+      <DependentUpon>Def_2_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rezultat.resx">
+      <DependentUpon>Rezultat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Tank_1.resx">
+      <DependentUpon>Tank_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Tank_2_1.resx">
+      <DependentUpon>Tank_2_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Tank_2_2.resx">
+      <DependentUpon>Tank_2_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DPS_1.resx">
+      <DependentUpon>DPS_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoScreen.resx">
+      <DependentUpon>InfoScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maps.resx">
+      <DependentUpon>Maps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Test\DPS_2_1.resx">
+      <DependentUpon>DPS_2_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DPS_2_2.resx">
+      <DependentUpon>DPS_2_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DPS_3_1.resx">
+      <DependentUpon>DPS_3_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\DPS_3_3.resx">
+      <DependentUpon>DPS_3_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800px-Ecopoint_Antarctica_BlizzCon_2016.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anubis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Castillo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chateau_Guillard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dorado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eichenwalde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hanamura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hollywood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horizon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ilios.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Junkertown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\King.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lijiang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Necropolis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nepal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Numbani.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oasis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volskaya.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casti.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ecopoint.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eiche.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\El_dorado.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forest.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gui8llard.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hanamura.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Holly.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horizon_colony.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ilios2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Industries.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Junker.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kings.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Necro.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nepal2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Numb.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oasis2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Temple.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tower.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Watchpoint.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arcade.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Assault.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Assault-Escort.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Control.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Escort.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Route66.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gibraltar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Overwatch_explanation.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bastion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D_Va.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doomfist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Genji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hanzo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Junkrat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lucio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mccree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mei.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mercy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orisa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pharah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reinhardt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roadhog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soldier76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sombra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Symmetra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Torbjorn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tracer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Widowmaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Winston.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zarya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zenyatta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ana1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bastion1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D_Va1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Defense.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doomfist1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Genji1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hanzo1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Junkrat1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lucio1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mccree1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mei1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mercy1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moira1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Offense.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orisa1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pharah1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reaper1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reinhardt1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roadhog1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soldier761.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sombra1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Support.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Symmetra1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tank.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Torbjorn1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tracer1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Widowmaker1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Winston1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zarya1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zenyatta1.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.106.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.106.0\build\net46\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.106.0\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.106.0\build\net46\System.Data.SQLite.Core.targets'))" />
+  </Target>
+</Project>

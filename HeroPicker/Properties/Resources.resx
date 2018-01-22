@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Ana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ana1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ana1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Anubis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Anubis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arcade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arcade.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Assault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assault.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Assault_Escort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Assault-Escort.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Bastion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bastion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bastion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bastion1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Casti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Casti.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Castillo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Castillo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chateau_Guillard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chateau_Guillard.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Control" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Control.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Defense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Defense.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Doomfist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Doomfist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Doomfist1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Doomfist1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Dorado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dorado.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_Va" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D_Va.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_Va1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D_Va1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Eco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\800px-Ecopoint_Antarctica_BlizzCon_2016.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ecopoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ecopoint.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Eiche" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eiche.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Eichenwalde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eichenwalde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="El_dorado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\El_dorado.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Escort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Escort.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Forest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Genji" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Genji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Genji1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Genji1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Gibraltar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gibraltar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gui8llard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gui8llard.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Hanamura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hanamura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hanamura1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hanamura.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Hanzo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hanzo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hanzo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hanzo1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Holly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Holly.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Hollywood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hollywood.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Horizon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Horizon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Horizon_colony" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Horizon_colony.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Ilios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ilios.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ilios2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ilios2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Industries" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Industries.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Junker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Junker.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Junkertown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Junkertown.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Junkrat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Junkrat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Junkrat1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Junkrat1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="King" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\King.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kings.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Lijiang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lijiang.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lucio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lucio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lucio1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lucio1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Mccree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mccree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mccree1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mccree1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Mei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mei.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mei1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mei1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Mercy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mercy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mercy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mercy1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Moira" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moira.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moira1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moira1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Necro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Necro.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Necropolis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Necropolis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nepal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nepal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nepal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nepal2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Numb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Numb.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Numbani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Numbani.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oasis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oasis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oasis2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oasis2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Offense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Offense.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Orisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Orisa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Orisa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Orisa1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Overwatch_explanation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Overwatch_explanation.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Pharah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pharah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pharah1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pharah1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Reaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reaper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reaper1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reaper1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Reinhardt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reinhardt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reinhardt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reinhardt1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Roadhog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Roadhog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roadhog1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Roadhog1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Route66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Route66.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Soldier76" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Soldier76.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Soldier761" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Soldier761.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Sombra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sombra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sombra1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sombra1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Support" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Support.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Symmetra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symmetra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Symmetra1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Symmetra1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Tank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tank.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Temple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Temple.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Torbjorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Torbjorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Torbjorn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Torbjorn1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Tower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tower.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Tracer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tracer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tracer1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tracer1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Volskaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Volskaya.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Watchpoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Watchpoint.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Widowmaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Widowmaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Widowmaker1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Widowmaker1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Winston" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Winston.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Winston1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Winston1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Zarya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zarya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zarya1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zarya1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="Zenyatta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zenyatta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zenyatta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zenyatta1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1250</value>
+  </data>
+  <data name="_66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\66.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>

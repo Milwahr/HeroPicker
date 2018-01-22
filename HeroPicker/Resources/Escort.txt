@@ -1,0 +1,5 @@
+In Escort, there is an attacking and a defending team. Teams' roles are determined randomly when the map is chosen, and once the match is complete, roles are swapped.
+
+The attacking team aims to escort a payload across the map to the objective, while the defending team aims to stop them.
+
+At the start of each round, the defending team is allocated some time to set up defenses before the attacking team is allowed out of their spawn area. When the set up timer runs out, attackers may leave their spawn area and another timer begins counting down. Each checkpoint reached adds extra time to the timer.
