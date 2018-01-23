@@ -222,11 +222,16 @@ namespace HeroPicker
                 dataGridView1.DataSource = source;
                 con.Close();
                 con.Open();
-                SQLiteCommand cmd1 = new SQLiteCommand("Select ability1, ability2, ability3, ability4, ultimate from Ability CROSS JOIN DamHeal on Ability.id = DamHeal.idab where Ability.id = " + id, con);
+                SQLiteCommand cmd1 = new SQLiteCommand("Select ability1, ability2, ability3, ability4, ultimate from Ability where Ability.id = " + id, con);
                 SQLiteDataReader rdr1 = cmd1.ExecuteReader();
                 BindingSource source1 = new BindingSource();
                 source1.DataSource = rdr1;
                 dataGridView2.DataSource = source1;
+                SQLiteCommand cmd2 = new SQLiteCommand("Select dh1, dh2, dh3, dh4, ulthd from DamHeal where DamHeal.id = " + id, con);
+                SQLiteDataReader rdr2 = cmd2.ExecuteReader();
+                BindingSource source2 = new BindingSource();
+                source2.DataSource = rdr2;
+                dataGridView3.DataSource = source2;
                 con.Clone();
             }
         }
