@@ -199,7 +199,7 @@ namespace HeroPicker
             {
                 pictureBox1.Image = Properties.Resources.Zenyatta;
                 textBox2.Text = Properties.Resources.Zenyatta1;
-                //textBox1.Text = Properties.Resources.Support;
+                textBox1.Text = Properties.Resources.Support;
                 prikaz_tabli(26);
             }
         }
