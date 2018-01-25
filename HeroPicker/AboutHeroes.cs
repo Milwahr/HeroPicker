@@ -212,7 +212,7 @@ namespace HeroPicker
         }
         public void prikaz_tabli(int id)
         {
-            using (SQLiteConnection con = new SQLiteConnection(@"Data Source=C:\Users\Roberto\Documents\Faks\HeroPicker\HeroPicker\HeroPicker\HeroPicker_DB.db"))
+            using (SQLiteConnection con = new SQLiteConnection(@"Data Source=C:\Users\Domagoj\Desktop\Hero\HeroPicker\HeroPicker\HeroPicker_DB.db"))
             {
                 con.Open();
                 SQLiteCommand cmd = new SQLiteCommand("SELECT HeroName, Age, Role, Health, Armour, Shield, Difficulty FROM Heroes WHERE id = " + id , con);

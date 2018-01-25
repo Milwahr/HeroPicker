@@ -168,6 +168,18 @@ namespace HeroPicker.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Blizzard Entertainment, Inc. is an American 
+        ///video game developer and publisher based in 
+        ///Irvine,California, and is a subsidiary of the 
+        ///American company Activision Blizzard..
+        /// </summary>
+        internal static string Blizzard_exp {
+            get {
+                return ResourceManager.GetString("Blizzard_exp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Castillo is an old fort looking out over Dorado&apos;s bay. It’s the location of Calaveras, a bar frequented by questionable patrons; a graffitied Los Muertos hangout; and Sombra&apos;s hacking den..
         /// </summary>
         internal static string Casti {
@@ -814,6 +826,18 @@ namespace HeroPicker.Properties {
         internal static string Overwatch_explanation {
             get {
                 return ResourceManager.GetString("Overwatch_explanation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Overwatch features squad-based combat with two 
+        ///opposing teams of six players each. Players 
+        ///choose one of several hero characters, each
+        ///with their own unique abilities and role classes..
+        /// </summary>
+        internal static string Overwatch_explanation1 {
+            get {
+                return ResourceManager.GetString("Overwatch_explanation1", resourceCulture);
             }
         }
         

@@ -1,0 +1,4 @@
+Overwatch features squad-based combat with two 
+opposing teams of six players each. Players 
+choose one of several hero characters, each
+with their own unique abilities and role classes.

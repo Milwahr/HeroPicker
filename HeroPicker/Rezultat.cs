@@ -22,7 +22,7 @@ namespace HeroPicker
 
         private void Rezultat_Load(object sender, EventArgs e)
         {
-            using (SQLiteConnection con = new SQLiteConnection(@"Data Source=C:\Users\Roberto\Documents\Faks\HeroPicker\HeroPicker\HeroPicker\HeroPicker_DB.db"))
+            using (SQLiteConnection con = new SQLiteConnection(@"Data Source=C:\Users\Domagoj\Desktop\Hero\HeroPicker\HeroPicker\HeroPicker_DB.db"))
             {
                 con.Open();
                 Rjesenje r = new Rjesenje();

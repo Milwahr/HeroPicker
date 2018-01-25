@@ -22,8 +22,10 @@ namespace HeroPicker
         {
             try
             {
-                string tekst = Properties.Resources.Overwatch_explanation;
+                string tekst = Properties.Resources.Overwatch_explanation1;
                 textBox1.Text = tekst;
+                string tekst1 = Properties.Resources.Blizzard_exp;
+                textBox2.Text = tekst1;
             }
             catch
             {
