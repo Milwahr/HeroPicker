@@ -25,7 +25,7 @@ namespace HeroPicker
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(@"Data Source= C:\Users\Domagoj\Desktop\Hero\HeroPicker\HeroPicker\HeroPicker_DB.db");
+            SQLiteConnection con = new SQLiteConnection(baze_put.datasource);
             SQLiteDataAdapter sda = new SQLiteDataAdapter("Select Count(*) From Korisnik where Username='" + textBox1.Text + "' and Password ='" + textBox2.Text + "'", con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
