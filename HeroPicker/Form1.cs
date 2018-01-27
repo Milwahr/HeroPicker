@@ -33,26 +33,66 @@ namespace HeroPicker
             {
                 //SQLiteCommand cmd = new SQLiteCommand();
                 //cmd.CommandType = CommandType.Text;
-                //cmd.CommandText = "SELECT id FROM Korisnik WHERE Ime = ' " + textBox1 + "' and Password ='" + textBox2 + "'";
+                //cmd.CommandText = "SELECT id FROM Korisnik WHERE Username = ' " + textBox1.Text + "' and Password ='" + textBox2.Text + "'";
                 //cmd.Connection = con;
                 //con.Open();
-                //SQLiteDataReader dr;
-                //dr = cmd.ExecuteReader();
-                //int d1;
-                
-                //while (dr.Read())
+                ////SQLiteDataReader dr;
+                ////dr = cmd.ExecuteReader();
+                //using (SQLiteDataReader rdr = cmd.ExecuteReader())
                 //{
-                //    d1 = dr.GetInt32(0);
-                //    MessageBox.Show(d1.ToString());
-                //    id_korisnik.login(d1);
-                //    break;
+                //    while (rdr.Read())
+                //    {
+                //        rdr.Read();
+                //        int d = rdr.GetInt32(0);
+                //        id_korisnik.login(d);
+                //    }
                 //}
+
                 //con.Close();
 
+                //int firstVariable;
+                //try
+                //{
 
+                //    using (SQLiteConnection connection = new SQLiteConnection(baze_put.datasource))
+                //    {
+                //        using (SQLiteCommand command = new SQLiteCommand("SELECT id FROM Korisnik WHERE Username = ' " + textBox1.Text + "' and Password ='" + textBox2.Text + "'", connection))
+                //        {
+                //            connection.Open();
+                //            using (SQLiteDataReader reader = command.ExecuteReader())
+                //            {
+                //                while (reader.Read())
+                //                {
+                //                    firstVariable = Convert.ToInt32(reader);
+                //                    id_korisnik.login(firstVariable);
+                //                }
+                //            }
+                //        }
+                //    }
+                //}
 
+                //catch (Exception ex)
+                //{
+                //    MessageBox.Show("Error in reading id");
+                //}
                 
+                string query = "SELECT id FROM Korisnik WHERE Username = ' " + textBox1.Text + "' and Password ='" + textBox2.Text + "'";
 
+                using (SQLiteConnection conn = new SQLiteConnection(baze_put.datasource))
+                {
+                     SQLiteCommand cmd = new SQLiteCommand(query, conn);
+                     conn.Open();
+                     SQLiteDataReader reader = cmd.ExecuteReader();
+                     int d;
+                     while (reader.Read())
+                     {
+                         d = Convert.ToInt32(reader);
+                         id_korisnik.login(d);
+                         MessageBox.Show(d.ToString());
+                     }
+                     reader.Close();
+                }
+                
                 MainMenu mm = new MainMenu();
                 mm.Show();
                 this.Hide();
@@ -61,6 +101,8 @@ namespace HeroPicker
             {
                 MessageBox.Show("Login attempt failed! Check your login information.");
             }
+            
         }
+        
     }
 }

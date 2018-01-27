@@ -12,7 +12,7 @@ namespace HeroPicker
     }
     public static class id_korisnik
     {
-        public static int id_kor = 0;
+        public static int id_kor;
 
         public static void login(int id)
         {

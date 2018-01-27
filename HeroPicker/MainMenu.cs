@@ -40,5 +40,12 @@ namespace HeroPicker
         {
             label1.Text = id_korisnik.id_kor.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            StatMenu sm = new StatMenu();
+            sm.Show();
+            this.Close();
+        }
     }
 }

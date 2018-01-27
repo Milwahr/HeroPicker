@@ -220,11 +220,20 @@
     <Compile Include="Test\Test.Designer.cs">
       <DependentUpon>Test.cs</DependentUpon>
     </Compile>
+    <Compile Include="WWStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WWStat.Designer.cs">
+      <DependentUpon>WWStat.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AboutGame.resx">
       <DependentUpon>AboutGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AboutHeroes.resx">
       <DependentUpon>AboutHeroes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatMenu.resx">
+      <DependentUpon>StatMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Test\Sup_1.resx">
       <DependentUpon>Sup_1.cs</DependentUpon>
@@ -301,6 +310,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Test\Test.resx">
       <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WWStat.resx">
+      <DependentUpon>WWStat.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
