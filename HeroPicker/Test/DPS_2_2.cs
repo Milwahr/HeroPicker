@@ -26,8 +26,6 @@ namespace HeroPicker
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Rjesenje r = new Rjesenje();
-            r.Hendlanje(4);
             Rezultat r1 = new Rezultat(4);
             r1.Show();
             this.Close();

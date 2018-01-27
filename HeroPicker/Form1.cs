@@ -31,6 +31,26 @@ namespace HeroPicker
             sda.Fill(dt);
             if(dt.Rows[0][0].ToString() == "1")
             {
+                //SQLiteCommand cmd = new SQLiteCommand();
+                //cmd.CommandType = CommandType.Text;
+                //cmd.CommandText = "SELECT id FROM Korisnik WHERE Ime = ' " + textBox1 + "' and Password ='" + textBox2 + "'";
+                //cmd.Connection = con;
+                //con.Open();
+                //SQLiteDataReader dr;
+                //dr = cmd.ExecuteReader();
+                //int d1;
+                
+                //while (dr.Read())
+                //{
+                //    d1 = dr.GetInt32(0);
+                //    MessageBox.Show(d1.ToString());
+                //    id_korisnik.login(d1);
+                //    break;
+                //}
+                //con.Close();
+
+
+
                 
 
                 MainMenu mm = new MainMenu();

@@ -19,17 +19,13 @@ namespace HeroPicker
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Rjesenje r = new Rjesenje();
-            r.Hendlanje(2);
             Rezultat r1 = new Rezultat(2);
             r1.Show();
             this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
-            Rjesenje r = new Rjesenje();
-            r.Hendlanje(8);
+        { 
             Rezultat r1 = new Rezultat(8);
             r1.Show();
             this.Close();
@@ -37,8 +33,6 @@ namespace HeroPicker
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Rjesenje r = new Rjesenje();
-            r.Hendlanje(7);
             Rezultat r1 = new Rezultat(7);
             r1.Show();
             this.Close();

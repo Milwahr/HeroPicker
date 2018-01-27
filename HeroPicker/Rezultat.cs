@@ -25,7 +25,6 @@ namespace HeroPicker
             using (SQLiteConnection con = new SQLiteConnection(baze_put.datasource))
             {
                 con.Open();
-                Rjesenje r = new Rjesenje();
                 SQLiteCommand cmd = new SQLiteCommand("SELECT HeroName, Age, Role, Health, Armour, Shield, Difficulty FROM Heroes WHERE Id = " + id_heroj, con);
                 SQLiteDataReader rdr = cmd.ExecuteReader();
                 BindingSource source = new BindingSource();

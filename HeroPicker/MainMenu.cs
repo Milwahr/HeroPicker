@@ -35,5 +35,10 @@ namespace HeroPicker
             t.Show();
             this.Close();
         }
+
+        private void MainMenu_Load(object sender, EventArgs e)
+        {
+            label1.Text = id_korisnik.id_kor.ToString();
+        }
     }
 }
