@@ -103,6 +103,31 @@ namespace HeroPicker
             }
             
         }
-        
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Registracija r = new Registracija();
+            r.Show();
+            r.Shown += R_Shown;
+            r.FormClosed += R_FormClosed;
+        }
+
+        private void R_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            button1.Enabled = true;
+            button2.Enabled = true;
+            button3.Enabled = true;
+            textBox1.Enabled = true;
+            textBox2.Enabled = true;
+        }
+
+        private void R_Shown(object sender, EventArgs e)
+        {
+            button1.Enabled = false;
+            button2.Enabled = false;
+            button3.Enabled = false;
+            textBox1.Enabled = false;
+            textBox2.Enabled = false;
+        }
     }
 }

@@ -14,22 +14,33 @@ namespace HeroPicker
     public partial class Rezultat : Form
     {
         public int id_heroj=0;
+        public string role;
         public Rezultat(int id)
         {
             InitializeComponent();
             id_heroj = id;
         }
 
+        
+
         private void Rezultat_Load(object sender, EventArgs e)
         {
             using (SQLiteConnection con = new SQLiteConnection(baze_put.datasource))
             {
+                if (id_heroj > 0 && id_heroj <= 8)  role = "Offense";
+                else if (id_heroj > 8 && id_heroj <= 14) role = "Defense";
+                else if (id_heroj > 14 && id_heroj <= 20) role = "Tank";
+                else if (id_heroj > 20 && id_heroj <= 26) role = "Support";
                 con.Open();
                 SQLiteCommand cmd = new SQLiteCommand("SELECT HeroName, Age, Role, Health, Armour, Shield, Difficulty FROM Heroes WHERE Id = " + id_heroj, con);
                 SQLiteDataReader rdr = cmd.ExecuteReader();
                 BindingSource source = new BindingSource();
                 source.DataSource = rdr;
                 dataGridView1.DataSource = source;
+                SQLiteCommand cmd1 = new SQLiteCommand("UPDATE Heroes SET Predlozen = Predlozen + 1 WHERE id = " + id_heroj, con);
+                cmd1.ExecuteNonQuery();
+                SQLiteCommand cmd2 = new SQLiteCommand("UPDATE Roles SET Predlozen = Predlozen + 1 WHERE Role = '" + role + "'", con);
+                cmd2.ExecuteNonQuery();
                 con.Close();
 
                 switch (id_heroj)
@@ -185,5 +196,6 @@ namespace HeroPicker
             mm.Show();
             this.Close();
         }
+        
     }
 }
