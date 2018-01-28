@@ -28,53 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Hanamura");
-            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Horizon Lunar Colony");
-            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Temple of Anubis");
-            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Volskaya Industries");
-            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("Assault Maps", new System.Windows.Forms.TreeNode[] {
-            treeNode53,
-            treeNode54,
-            treeNode55,
-            treeNode56});
-            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Dorado");
-            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("Junkertown");
-            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("Route 66");
-            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("Watchpoint: Gibraltar");
-            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("Escort Maps", new System.Windows.Forms.TreeNode[] {
-            treeNode58,
-            treeNode59,
-            treeNode60,
-            treeNode61});
-            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("Eichenwalde");
-            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("Hollywood");
-            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("King\'s Row");
-            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("Numbani");
-            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("Assault Escort", new System.Windows.Forms.TreeNode[] {
-            treeNode63,
-            treeNode64,
-            treeNode65,
-            treeNode66});
-            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("Ilios");
-            System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("Lijiang Tower");
-            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("Nepal");
-            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("Oasis");
-            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("Control Maps", new System.Windows.Forms.TreeNode[] {
-            treeNode68,
-            treeNode69,
-            treeNode70,
-            treeNode71});
-            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("Black Forest");
-            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("Castillo");
-            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("Chateau Guillard");
-            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("Ecopoint: Antarctica");
-            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("Necropolis");
-            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("Arena Maps", new System.Windows.Forms.TreeNode[] {
-            treeNode73,
-            treeNode74,
-            treeNode75,
-            treeNode76,
-            treeNode77});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Hanamura");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Horizon Lunar Colony");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Temple of Anubis");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Volskaya Industries");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Assault Maps", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3,
+            treeNode4});
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Dorado");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Junkertown");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Route 66");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Watchpoint: Gibraltar");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Escort Maps", new System.Windows.Forms.TreeNode[] {
+            treeNode6,
+            treeNode7,
+            treeNode8,
+            treeNode9});
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Eichenwalde");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Hollywood");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("King\'s Row");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Numbani");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Assault Escort", new System.Windows.Forms.TreeNode[] {
+            treeNode11,
+            treeNode12,
+            treeNode13,
+            treeNode14});
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Ilios");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Lijiang Tower");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Nepal");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Oasis");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Control Maps", new System.Windows.Forms.TreeNode[] {
+            treeNode16,
+            treeNode17,
+            treeNode18,
+            treeNode19});
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Black Forest");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Castillo");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Chateau Guillard");
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Ecopoint: Antarctica");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Necropolis");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Arena Maps", new System.Windows.Forms.TreeNode[] {
+            treeNode21,
+            treeNode22,
+            treeNode23,
+            treeNode24,
+            treeNode25});
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Maps));
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -89,64 +90,64 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(844, 31);
             this.treeView1.Name = "treeView1";
-            treeNode53.Name = "Node5";
-            treeNode53.Text = "Hanamura";
-            treeNode54.Name = "Node6";
-            treeNode54.Text = "Horizon Lunar Colony";
-            treeNode55.Name = "Node7";
-            treeNode55.Text = "Temple of Anubis";
-            treeNode56.Name = "Node8";
-            treeNode56.Text = "Volskaya Industries";
-            treeNode57.Name = "Node0";
-            treeNode57.Text = "Assault Maps";
-            treeNode58.Name = "Node9";
-            treeNode58.Text = "Dorado";
-            treeNode59.Name = "Node10";
-            treeNode59.Text = "Junkertown";
-            treeNode60.Name = "Node11";
-            treeNode60.Text = "Route 66";
-            treeNode61.Name = "Node12";
-            treeNode61.Text = "Watchpoint: Gibraltar";
-            treeNode62.Name = "Node1";
-            treeNode62.Text = "Escort Maps";
-            treeNode63.Name = "Node13";
-            treeNode63.Text = "Eichenwalde";
-            treeNode64.Name = "Node14";
-            treeNode64.Text = "Hollywood";
-            treeNode65.Name = "Node15";
-            treeNode65.Text = "King\'s Row";
-            treeNode66.Name = "Node16";
-            treeNode66.Text = "Numbani";
-            treeNode67.Name = "Node2";
-            treeNode67.Text = "Assault Escort";
-            treeNode68.Name = "Node19";
-            treeNode68.Text = "Ilios";
-            treeNode69.Name = "Node20";
-            treeNode69.Text = "Lijiang Tower";
-            treeNode70.Name = "Node21";
-            treeNode70.Text = "Nepal";
-            treeNode71.Name = "Node22";
-            treeNode71.Text = "Oasis";
-            treeNode72.Name = "Node3";
-            treeNode72.Text = "Control Maps";
-            treeNode73.Name = "Node23";
-            treeNode73.Text = "Black Forest";
-            treeNode74.Name = "Node24";
-            treeNode74.Text = "Castillo";
-            treeNode75.Name = "Node25";
-            treeNode75.Text = "Chateau Guillard";
-            treeNode76.Name = "Node26";
-            treeNode76.Text = "Ecopoint: Antarctica";
-            treeNode77.Name = "Node27";
-            treeNode77.Text = "Necropolis";
-            treeNode78.Name = "Node4";
-            treeNode78.Text = "Arena Maps";
+            treeNode1.Name = "Node5";
+            treeNode1.Text = "Hanamura";
+            treeNode2.Name = "Node6";
+            treeNode2.Text = "Horizon Lunar Colony";
+            treeNode3.Name = "Node7";
+            treeNode3.Text = "Temple of Anubis";
+            treeNode4.Name = "Node8";
+            treeNode4.Text = "Volskaya Industries";
+            treeNode5.Name = "Node0";
+            treeNode5.Text = "Assault Maps";
+            treeNode6.Name = "Node9";
+            treeNode6.Text = "Dorado";
+            treeNode7.Name = "Node10";
+            treeNode7.Text = "Junkertown";
+            treeNode8.Name = "Node11";
+            treeNode8.Text = "Route 66";
+            treeNode9.Name = "Node12";
+            treeNode9.Text = "Watchpoint: Gibraltar";
+            treeNode10.Name = "Node1";
+            treeNode10.Text = "Escort Maps";
+            treeNode11.Name = "Node13";
+            treeNode11.Text = "Eichenwalde";
+            treeNode12.Name = "Node14";
+            treeNode12.Text = "Hollywood";
+            treeNode13.Name = "Node15";
+            treeNode13.Text = "King\'s Row";
+            treeNode14.Name = "Node16";
+            treeNode14.Text = "Numbani";
+            treeNode15.Name = "Node2";
+            treeNode15.Text = "Assault Escort";
+            treeNode16.Name = "Node19";
+            treeNode16.Text = "Ilios";
+            treeNode17.Name = "Node20";
+            treeNode17.Text = "Lijiang Tower";
+            treeNode18.Name = "Node21";
+            treeNode18.Text = "Nepal";
+            treeNode19.Name = "Node22";
+            treeNode19.Text = "Oasis";
+            treeNode20.Name = "Node3";
+            treeNode20.Text = "Control Maps";
+            treeNode21.Name = "Node23";
+            treeNode21.Text = "Black Forest";
+            treeNode22.Name = "Node24";
+            treeNode22.Text = "Castillo";
+            treeNode23.Name = "Node25";
+            treeNode23.Text = "Chateau Guillard";
+            treeNode24.Name = "Node26";
+            treeNode24.Text = "Ecopoint: Antarctica";
+            treeNode25.Name = "Node27";
+            treeNode25.Text = "Necropolis";
+            treeNode26.Name = "Node4";
+            treeNode26.Text = "Arena Maps";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode57,
-            treeNode62,
-            treeNode67,
-            treeNode72,
-            treeNode78});
+            treeNode5,
+            treeNode10,
+            treeNode15,
+            treeNode20,
+            treeNode26});
             this.treeView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.treeView1.Size = new System.Drawing.Size(223, 540);
             this.treeView1.TabIndex = 0;
@@ -217,6 +218,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.treeView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Maps";
             this.Text = "Maps";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

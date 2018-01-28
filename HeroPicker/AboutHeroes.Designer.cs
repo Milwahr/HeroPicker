@@ -28,62 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Doomfist");
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Genji");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("McCree");
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Pharah");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Reaper");
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Soldier: 76");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Sombra");
-            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Tracer");
-            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Offense", new System.Windows.Forms.TreeNode[] {
-            treeNode31,
-            treeNode32,
-            treeNode33,
-            treeNode34,
-            treeNode35,
-            treeNode36,
-            treeNode37,
-            treeNode38});
-            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Bastion");
-            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Hanzo");
-            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Junkrat");
-            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Mei");
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Torbjorn");
-            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Widowmaker");
-            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Defense", new System.Windows.Forms.TreeNode[] {
-            treeNode40,
-            treeNode41,
-            treeNode42,
-            treeNode43,
-            treeNode44,
-            treeNode45});
-            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("D.Va");
-            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Orisa");
-            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Reinhardt");
-            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Roadhog");
-            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Winston");
-            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Zarya");
-            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Tank", new System.Windows.Forms.TreeNode[] {
-            treeNode47,
-            treeNode48,
-            treeNode49,
-            treeNode50,
-            treeNode51,
-            treeNode52});
-            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Ana");
-            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Lucio");
-            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Mercy");
-            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("Moira");
-            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Symmetra");
-            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("Zenyatta");
-            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("Support", new System.Windows.Forms.TreeNode[] {
-            treeNode54,
-            treeNode55,
-            treeNode56,
-            treeNode57,
-            treeNode58,
-            treeNode59});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Doomfist");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Genji");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("McCree");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Pharah");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Reaper");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Soldier: 76");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Sombra");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Tracer");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Offense", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3,
+            treeNode4,
+            treeNode5,
+            treeNode6,
+            treeNode7,
+            treeNode8});
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Bastion");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Hanzo");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Junkrat");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Mei");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Torbjorn");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Widowmaker");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Defense", new System.Windows.Forms.TreeNode[] {
+            treeNode10,
+            treeNode11,
+            treeNode12,
+            treeNode13,
+            treeNode14,
+            treeNode15});
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("D.Va");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Orisa");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Reinhardt");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Roadhog");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Winston");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Zarya");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Tank", new System.Windows.Forms.TreeNode[] {
+            treeNode17,
+            treeNode18,
+            treeNode19,
+            treeNode20,
+            treeNode21,
+            treeNode22});
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Ana");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Lucio");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Mercy");
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Moira");
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Symmetra");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Zenyatta");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Support", new System.Windows.Forms.TreeNode[] {
+            treeNode24,
+            treeNode25,
+            treeNode26,
+            treeNode27,
+            treeNode28,
+            treeNode29});
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutHeroes));
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -104,71 +105,71 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(827, 12);
             this.treeView1.Name = "treeView1";
-            treeNode31.Name = "Node1";
-            treeNode31.Text = "Doomfist";
-            treeNode32.Name = "Node2";
-            treeNode32.Text = "Genji";
-            treeNode33.Name = "Node3";
-            treeNode33.Text = "McCree";
-            treeNode34.Name = "Node4";
-            treeNode34.Text = "Pharah";
-            treeNode35.Name = "Node5";
-            treeNode35.Text = "Reaper";
-            treeNode36.Name = "Node6";
-            treeNode36.Text = "Soldier: 76";
-            treeNode37.Name = "Node7";
-            treeNode37.Text = "Sombra";
-            treeNode38.Name = "Node8";
-            treeNode38.Text = "Tracer";
-            treeNode39.Name = "Node0";
-            treeNode39.Text = "Offense";
-            treeNode40.Name = "Node10";
-            treeNode40.Text = "Bastion";
-            treeNode41.Name = "Node11";
-            treeNode41.Text = "Hanzo";
-            treeNode42.Name = "Node12";
-            treeNode42.Text = "Junkrat";
-            treeNode43.Name = "Node13";
-            treeNode43.Text = "Mei";
-            treeNode44.Name = "Node14";
-            treeNode44.Text = "Torbjorn";
-            treeNode45.Name = "Node15";
-            treeNode45.Text = "Widowmaker";
-            treeNode46.Name = "Node9";
-            treeNode46.Text = "Defense";
-            treeNode47.Name = "Node17";
-            treeNode47.Text = "D.Va";
-            treeNode48.Name = "Node18";
-            treeNode48.Text = "Orisa";
-            treeNode49.Name = "Node19";
-            treeNode49.Text = "Reinhardt";
-            treeNode50.Name = "Node20";
-            treeNode50.Text = "Roadhog";
-            treeNode51.Name = "Node21";
-            treeNode51.Text = "Winston";
-            treeNode52.Name = "Node22";
-            treeNode52.Text = "Zarya";
-            treeNode53.Name = "Node16";
-            treeNode53.Text = "Tank";
-            treeNode54.Name = "Node24";
-            treeNode54.Text = "Ana";
-            treeNode55.Name = "Node25";
-            treeNode55.Text = "Lucio";
-            treeNode56.Name = "Node26";
-            treeNode56.Text = "Mercy";
-            treeNode57.Name = "Node27";
-            treeNode57.Text = "Moira";
-            treeNode58.Name = "Node28";
-            treeNode58.Text = "Symmetra";
-            treeNode59.Name = "Node29";
-            treeNode59.Text = "Zenyatta";
-            treeNode60.Name = "Node23";
-            treeNode60.Text = "Support";
+            treeNode1.Name = "Node1";
+            treeNode1.Text = "Doomfist";
+            treeNode2.Name = "Node2";
+            treeNode2.Text = "Genji";
+            treeNode3.Name = "Node3";
+            treeNode3.Text = "McCree";
+            treeNode4.Name = "Node4";
+            treeNode4.Text = "Pharah";
+            treeNode5.Name = "Node5";
+            treeNode5.Text = "Reaper";
+            treeNode6.Name = "Node6";
+            treeNode6.Text = "Soldier: 76";
+            treeNode7.Name = "Node7";
+            treeNode7.Text = "Sombra";
+            treeNode8.Name = "Node8";
+            treeNode8.Text = "Tracer";
+            treeNode9.Name = "Node0";
+            treeNode9.Text = "Offense";
+            treeNode10.Name = "Node10";
+            treeNode10.Text = "Bastion";
+            treeNode11.Name = "Node11";
+            treeNode11.Text = "Hanzo";
+            treeNode12.Name = "Node12";
+            treeNode12.Text = "Junkrat";
+            treeNode13.Name = "Node13";
+            treeNode13.Text = "Mei";
+            treeNode14.Name = "Node14";
+            treeNode14.Text = "Torbjorn";
+            treeNode15.Name = "Node15";
+            treeNode15.Text = "Widowmaker";
+            treeNode16.Name = "Node9";
+            treeNode16.Text = "Defense";
+            treeNode17.Name = "Node17";
+            treeNode17.Text = "D.Va";
+            treeNode18.Name = "Node18";
+            treeNode18.Text = "Orisa";
+            treeNode19.Name = "Node19";
+            treeNode19.Text = "Reinhardt";
+            treeNode20.Name = "Node20";
+            treeNode20.Text = "Roadhog";
+            treeNode21.Name = "Node21";
+            treeNode21.Text = "Winston";
+            treeNode22.Name = "Node22";
+            treeNode22.Text = "Zarya";
+            treeNode23.Name = "Node16";
+            treeNode23.Text = "Tank";
+            treeNode24.Name = "Node24";
+            treeNode24.Text = "Ana";
+            treeNode25.Name = "Node25";
+            treeNode25.Text = "Lucio";
+            treeNode26.Name = "Node26";
+            treeNode26.Text = "Mercy";
+            treeNode27.Name = "Node27";
+            treeNode27.Text = "Moira";
+            treeNode28.Name = "Node28";
+            treeNode28.Text = "Symmetra";
+            treeNode29.Name = "Node29";
+            treeNode29.Text = "Zenyatta";
+            treeNode30.Name = "Node23";
+            treeNode30.Text = "Support";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode39,
-            treeNode46,
-            treeNode53,
-            treeNode60});
+            treeNode9,
+            treeNode16,
+            treeNode23,
+            treeNode30});
             this.treeView1.Size = new System.Drawing.Size(240, 547);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
@@ -267,6 +268,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.treeView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AboutHeroes";
             this.Text = "AboutHeroes";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -138,6 +138,7 @@
             this.ClientSize = new System.Drawing.Size(860, 362);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Login";
             this.groupBox1.ResumeLayout(false);

@@ -51,6 +51,8 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Lucida Sans Unicode", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(619, 94);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(448, 97);
@@ -62,6 +64,8 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Lucida Sans Unicode", 27.75F, System.Drawing.FontStyle.Bold);
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(619, 261);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(448, 97);
@@ -73,6 +77,8 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Lucida Sans Unicode", 27.75F, System.Drawing.FontStyle.Bold);
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.Location = new System.Drawing.Point(619, 431);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(448, 97);
@@ -112,6 +118,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainMenu";
             this.Text = "Main Menu";
             this.Load += new System.EventHandler(this.MainMenu_Load);
