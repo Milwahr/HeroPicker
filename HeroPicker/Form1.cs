@@ -31,24 +31,22 @@ namespace HeroPicker
             sda.Fill(dt);
             if(dt.Rows[0][0].ToString() == "1")
             {
-                //SQLiteCommand cmd = new SQLiteCommand();
-                //cmd.CommandType = CommandType.Text;
-                //cmd.CommandText = "SELECT id FROM Korisnik WHERE Username = ' " + textBox1.Text + "' and Password ='" + textBox2.Text + "'";
-                //cmd.Connection = con;
-                //con.Open();
-                ////SQLiteDataReader dr;
-                ////dr = cmd.ExecuteReader();
-                //using (SQLiteDataReader rdr = cmd.ExecuteReader())
-                //{
-                //    while (rdr.Read())
-                //    {
-                //        rdr.Read();
-                //        int d = rdr.GetInt32(0);
-                //        id_korisnik.login(d);
-                //    }
-                //}
+                SQLiteCommand cmd = new SQLiteCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "SELECT id FROM Korisnik WHERE Username = '" + textBox1.Text + "' and Password ='" + textBox2.Text + "'";
+                cmd.Connection = con;
+                con.Open();
+                //SQLiteDataReader dr;
+                //dr = cmd.ExecuteReader();
+                using (SQLiteDataReader rdr = cmd.ExecuteReader())
+                {
+                    
+                    rdr.Read();
+                    int d = rdr.GetInt32(0);
+                    id_korisnik.login(d);
+                }
 
-                //con.Close();
+                con.Close();
 
                 //int firstVariable;
                 //try
@@ -75,14 +73,14 @@ namespace HeroPicker
                 //{
                 //    MessageBox.Show("Error in reading id");
                 //}
-                
+
                 string query = "SELECT id FROM Korisnik WHERE Username = ' " + textBox1.Text + "' and Password ='" + textBox2.Text + "'";
 
                 using (SQLiteConnection conn = new SQLiteConnection(baze_put.datasource))
                 {
-                     SQLiteCommand cmd = new SQLiteCommand(query, conn);
+                     SQLiteCommand cmd1 = new SQLiteCommand(query, conn);
                      conn.Open();
-                     SQLiteDataReader reader = cmd.ExecuteReader();
+                     SQLiteDataReader reader = cmd1.ExecuteReader();
                      int d;
                      while (reader.Read())
                      {
