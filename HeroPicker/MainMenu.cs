@@ -38,7 +38,7 @@ namespace HeroPicker
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
-            label1.Text = id_korisnik.id_kor.ToString();
+            label1.Text = "(" + id_korisnik.id_kor.ToString() + ") " + id_korisnik.user_name;
         }
 
         private void button2_Click(object sender, EventArgs e)

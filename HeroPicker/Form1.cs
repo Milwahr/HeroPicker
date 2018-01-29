@@ -29,7 +29,7 @@ namespace HeroPicker
             SQLiteDataAdapter sda = new SQLiteDataAdapter("Select Count(*) From Korisnik where Username='" + textBox1.Text + "' and Password ='" + textBox2.Text + "'", con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
-            if(dt.Rows[0][0].ToString() == "1")
+            if (dt.Rows[0][0].ToString() == "1")
             {
                 SQLiteCommand cmd = new SQLiteCommand();
                 cmd.CommandType = CommandType.Text;
@@ -40,66 +40,20 @@ namespace HeroPicker
                 //dr = cmd.ExecuteReader();
                 using (SQLiteDataReader rdr = cmd.ExecuteReader())
                 {
-                    
+
                     rdr.Read();
                     int d = rdr.GetInt32(0);
                     id_korisnik.login(d);
+                    id_korisnik.user_name = textBox1.Text;
                 }
 
                 con.Close();
 
-                //int firstVariable;
-                //try
-                //{
-
-                //    using (SQLiteConnection connection = new SQLiteConnection(baze_put.datasource))
-                //    {
-                //        using (SQLiteCommand command = new SQLiteCommand("SELECT id FROM Korisnik WHERE Username = ' " + textBox1.Text + "' and Password ='" + textBox2.Text + "'", connection))
-                //        {
-                //            connection.Open();
-                //            using (SQLiteDataReader reader = command.ExecuteReader())
-                //            {
-                //                while (reader.Read())
-                //                {
-                //                    firstVariable = Convert.ToInt32(reader);
-                //                    id_korisnik.login(firstVariable);
-                //                }
-                //            }
-                //        }
-                //    }
-                //}
-
-                //catch (Exception ex)
-                //{
-                //    MessageBox.Show("Error in reading id");
-                //}
-
-                string query = "SELECT id FROM Korisnik WHERE Username = ' " + textBox1.Text + "' and Password ='" + textBox2.Text + "'";
-
-                using (SQLiteConnection conn = new SQLiteConnection(baze_put.datasource))
-                {
-                     SQLiteCommand cmd1 = new SQLiteCommand(query, conn);
-                     conn.Open();
-                     SQLiteDataReader reader = cmd1.ExecuteReader();
-                     int d;
-                     while (reader.Read())
-                     {
-                         d = Convert.ToInt32(reader);
-                         id_korisnik.login(d);
-                         MessageBox.Show(d.ToString());
-                     }
-                     reader.Close();
-                }
-                
-                MainMenu mm = new MainMenu();
-                mm.Show();
-                this.Hide();
             }
-            else
-            {
-                MessageBox.Show("Login attempt failed! Check your login information.");
-            }
-            
+
+            MainMenu mm = new MainMenu();
+            mm.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)

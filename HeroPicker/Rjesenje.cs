@@ -13,6 +13,7 @@ namespace HeroPicker
     public static class id_korisnik
     {
         public static int id_kor;
+        public static string user_name;
 
         public static void login(int id)
         {
