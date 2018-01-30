@@ -25,35 +25,51 @@ namespace HeroPicker
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SQLiteConnection con = new SQLiteConnection(baze_put.datasource);
-            SQLiteDataAdapter sda = new SQLiteDataAdapter("Select Count(*) From Korisnik where Username='" + textBox1.Text + "' and Password ='" + textBox2.Text + "'", con);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
-            if (dt.Rows[0][0].ToString() == "1")
+            try
             {
-                SQLiteCommand cmd = new SQLiteCommand();
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "SELECT id FROM Korisnik WHERE Username = '" + textBox1.Text + "' and Password ='" + textBox2.Text + "'";
-                cmd.Connection = con;
-                con.Open();
-                //SQLiteDataReader dr;
-                //dr = cmd.ExecuteReader();
-                using (SQLiteDataReader rdr = cmd.ExecuteReader())
+
+
+                SQLiteConnection con = new SQLiteConnection(baze_put.datasource);
+                SQLiteDataAdapter sda = new SQLiteDataAdapter("Select Count(*) From Korisnik where Username='" + textBox1.Text + "' and Password ='" + textBox2.Text + "'", con);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                if (dt.Rows[0][0].ToString() == "1")
                 {
+                    SQLiteCommand cmd = new SQLiteCommand();
+                    cmd.CommandType = CommandType.Text;
+                    cmd.CommandText = "SELECT id FROM Korisnik WHERE Username = '" + textBox1.Text + "' and Password ='" + textBox2.Text + "'";
+                    cmd.Connection = con;
+                    con.Open();
+                    //SQLiteDataReader dr;
+                    //dr = cmd.ExecuteReader();
+                    using (SQLiteDataReader rdr = cmd.ExecuteReader())
+                    {
 
-                    rdr.Read();
-                    int d = rdr.GetInt32(0);
-                    id_korisnik.login(d);
-                    id_korisnik.user_name = textBox1.Text;
+                        rdr.Read();
+                        int d = rdr.GetInt32(0);
+                        id_korisnik.login(d);
+                        id_korisnik.user_name = textBox1.Text;
+                    }
+                    MainMenu mm = new MainMenu();
+                    mm.Show();
+                    this.Hide();
+
+                    con.Close();
+
                 }
-
-                con.Close();
-
+                else
+                {
+                    MessageBox.Show("Login attempt failed!");
+                    label3.Text = "Check your information";
+                }
+                
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Login attempt failed! Check your info input.");
             }
 
-            MainMenu mm = new MainMenu();
-            mm.Show();
-            this.Hide();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
