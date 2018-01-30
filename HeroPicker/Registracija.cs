@@ -27,6 +27,10 @@ namespace HeroPicker
                     con.Open();
                     SQLiteCommand cmd = new SQLiteCommand("INSERT INTO Korisnik (Username, Password, Ime, Prezime, Email) Values ('" + textBox1.Text + "', '" + textBox2.Text + "', '" + textBox3.Text + "', '" + textBox4.Text + "', '" + textBox5.Text + "');", con);
                     cmd.ExecuteNonQuery();
+                    SQLiteCommand cmd1 = new SQLiteCommand("INSERT INTO User_Heroes (Doomfist) Values (0)", con);
+                    cmd1.ExecuteNonQuery();
+                    SQLiteCommand cmd2 = new SQLiteCommand("INSERT INTO User_Role (Tank) Values (0);", con);
+                    cmd2.ExecuteNonQuery();
                     con.Close();
                 }
                 MessageBox.Show("Succesful registration!");

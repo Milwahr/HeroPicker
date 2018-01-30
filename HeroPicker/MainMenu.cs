@@ -43,8 +43,8 @@ namespace HeroPicker
 
         private void button2_Click(object sender, EventArgs e)
         {
-            StatMenu sm = new StatMenu();
-            sm.Show();
+            WWStat ww = new WWStat();
+            ww.Show();
             this.Close();
         }
     }
