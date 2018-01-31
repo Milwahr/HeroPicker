@@ -310,8 +310,8 @@ namespace HeroPicker.Properties {
         ///and a handful of his best soldiers, including his pupil, 
         ///Reinhardt Wilhelm, made a last stand against an advancing automaton army.
         ///Since Eichenwalde was in the way of a larger omnic advance to Stuttgart, 
-        ///the town was evacuated on October 11, from 3 to 8 o&apos;clock.[3] Outnumbered and outgunned, 
-        ///almost all Crusaders were slain during the resulting comba [rest of string was truncated]&quot;;.
+        ///the town was evacuated on October 11, from 3 to 8 o&apos;clock. Outnumbered and outgunned, 
+        ///almost all Crusaders were slain during the resulting combat,  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Eiche {
             get {
@@ -357,7 +357,7 @@ namespace HeroPicker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to People used to believe that witches resided within the forest.[1]
+        ///   Looks up a localized string similar to People used to believe that witches resided within the forest.
         ///
         ///The forest was a battlefield during the Omnic Crisis..
         /// </summary>
@@ -501,9 +501,9 @@ namespace HeroPicker.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ilios is located in the Aegean sea of Greece, which is part of the Mediterranean Sea.[1]
+        ///   Looks up a localized string similar to Ilios is located in the Aegean sea of Greece, which is part of the Mediterranean Sea.
         ///
-        ///Situated atop a small island rising from the Aegean Sea, Ilios is a postcard-perfect Mediterranean town, with a bustling harborside, winding paths for rambling hillside strolls, and gorgeous vistas. It is the ideal vacation stop for people looking for a place to relax, or for those interested in exploring the ruins scattered at the top of the island, where many artifacts and relics of the ancient world have been rece [rest of string was truncated]&quot;;.
+        ///Situated atop a small island rising from the Aegean Sea, Ilios is a postcard-perfect Mediterranean town, with a bustling harborside, winding paths for rambling hillside strolls, and gorgeous vistas. It is the ideal vacation stop for people looking for a place to relax, or for those interested in exploring the ruins scattered at the top of the island, where many artifacts and relics of the ancient world have been recentl [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Ilios2 {
             get {

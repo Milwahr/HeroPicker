@@ -89,7 +89,7 @@
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "InfoScreen";
-            this.Text = "InfoScreen";
+            this.Text = "Info Screen";
             this.ResumeLayout(false);
 
         }
