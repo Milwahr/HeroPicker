@@ -11,9 +11,9 @@ using System.Data.SQLite;
 
 namespace HeroPicker
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -40,8 +40,7 @@ namespace HeroPicker
                     cmd.CommandText = "SELECT id FROM Korisnik WHERE Username = '" + textBox1.Text + "' and Password ='" + textBox2.Text + "'";
                     cmd.Connection = con;
                     con.Open();
-                    //SQLiteDataReader dr;
-                    //dr = cmd.ExecuteReader();
+                    
                     using (SQLiteDataReader rdr = cmd.ExecuteReader())
                     {
 
