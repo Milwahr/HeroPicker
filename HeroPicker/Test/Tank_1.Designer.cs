@@ -74,7 +74,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Tank_1";
-            this.Text = "Tank_1";
+            this.Text = "Test";
             this.ResumeLayout(false);
             this.PerformLayout();
 
