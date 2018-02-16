@@ -74,7 +74,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "DPS_3_3";
-            this.Text = "DPS_3_3";
+            this.Text = "Test";
             this.ResumeLayout(false);
             this.PerformLayout();
 
