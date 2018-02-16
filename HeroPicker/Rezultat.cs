@@ -16,6 +16,8 @@ namespace HeroPicker
         public int id_heroj=0;
         public string role;
         public string hime;
+
+        //konstruktor koji prima parametar id, od prijasnje forme
         public Rezultat(int id)
         {
             InitializeComponent();

@@ -13,6 +13,7 @@ namespace HeroPicker
 {
     public partial class Login : Form
     {
+        //Konstruktor
         public Login()
         {
             InitializeComponent();
