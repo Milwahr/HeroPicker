@@ -181,9 +181,6 @@
   <data name="Ecopoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ecopoint.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
-  <data name="Eiche" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Eiche.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
   <data name="Eichenwalde" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Eichenwalde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -192,9 +189,6 @@
   </data>
   <data name="Escort" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Escort.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
-  </data>
-  <data name="Forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Forest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Genji" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Genji.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -234,9 +228,6 @@
   </data>
   <data name="Ilios" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ilios.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ilios2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ilios2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Industries" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Industries.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
@@ -435,5 +426,14 @@
   </data>
   <data name="Overwatch_explanation1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Overwatch_explanation1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Eiche" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eiche.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Forest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Ilios2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ilios2.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
 </root>

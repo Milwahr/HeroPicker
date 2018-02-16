@@ -122,7 +122,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Rezultat";
-            this.Text = "Rezultat";
+            this.Text = "Result";
             this.Load += new System.EventHandler(this.Rezultat_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

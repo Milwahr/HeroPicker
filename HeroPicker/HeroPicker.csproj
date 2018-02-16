@@ -414,13 +414,7 @@
     <None Include="Resources\Ecopoint.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Eiche.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\El_dorado.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Forest.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Gui8llard.txt" />
@@ -433,9 +427,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Horizon_colony.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Ilios2.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Industries.txt" />
@@ -664,6 +655,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Overwatch_explanation1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ilios2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eiche.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forest.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.106.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.106.0\build\net46\System.Data.SQLite.Core.targets')" />
